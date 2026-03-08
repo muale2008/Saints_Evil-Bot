@@ -9,7 +9,7 @@ const settings = {
   timeZone: process.env.TIMEZONE || 'Asia/Karachi',
   botName: process.env.BOT_NAME || "Saints_Evil-Bot",
   botOwner: process.env.BOT_OWNER || 'Qasim Ali',
-  ownerNumber: process.env.OWNER_NUMBER || '923051391007',
+  ownerNumber: process.env.OWNER_NUMBER || '233206777968',
   giphyApiKey: process.env.GIPHY_API_KEY || 'qnl7ssQChTdPjsKta2Ax2LMaGXz303tq',
   commandMode: process.env.COMMAND_MODE || "public",
   

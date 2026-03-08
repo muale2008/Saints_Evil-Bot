@@ -1,8 +1,10 @@
 {
   "name": "Saints_Evil-Bot",
-  "description": " Whatsapp automation",
+  "description": "WhatsApp automation bot",
   "keywords": [
-    "whatsapp Bot"
+    "whatsapp-bot",
+    "automation",
+    "baileys"
   ],
   "repository": "https://github.com/muale2008/Saints_Evil-Bot",
   "stack": "container",
@@ -13,62 +15,62 @@
       "value": ""
     },
     "MONGO_URL": {
-      "description": "Put if you have mongodb database url",
+      "description": "MongoDB database URL",
       "required": false,
-      "value": ""
+      "value": "mongodb+srv://Saints_Evil-Bot:muale2008@cluster0.umi5clq.mongodb.net/saintsbot"
     },
     "MYSQL_URL": {
-      "description": "Put if you have mysql database url",
+      "description": "MySQL database URL",
       "required": false,
       "value": ""
     },
     "POSTGRES_URL": {
-      "description": "Put if you have postgres database url",
+      "description": "Postgres database URL",
       "required": false,
       "value": ""
     },
-     "PREFIXES=": {
-      "description": "One or more prefixes splited by comma",
+    "PREFIXES": {
+      "description": "One or more prefixes separated by comma",
       "required": false,
-      "value": "."
+      "value": ".,!,/"
     },
-     "PACKNAME": {
+    "PACKNAME": {
       "description": "Your sticker pack name",
       "required": false,
-      "value": "Mega-Bot"
+      "value": "Saints_Evil-Bot"
     },
     "BOT_NAME": {
       "description": "Your bot name",
       "required": false,
-      "value": "Saints_Evil-Bot"
+      "value": "SAINTS-EVIL-BOT"
     },
     "OWNER_NUMBER": {
       "description": "Your WhatsApp number",
       "required": false,
-      "value": "923000000000"
+      "value": "233206777968"
     },
     "COMMAND_MODE": {
       "description": "Bot mode",
       "required": false,
-      "value": "public"
+      "value": "service"
     },
     "BOT_OWNER": {
       "description": "Owner name",
       "required": false,
-      "value": "GlobalTech"
+      "value": "Saint"
     },
     "TIMEZONE": {
       "description": "Your time zone",
       "required": false,
-      "value": "Asia/Karachi"
+      "value": "Africa/Accra"
     },
     "REMOVEBG_KEY": {
-      "description": "Put your Remove background api key",
+      "description": "Remove background API key",
       "required": false,
-      "value": ""
+      "value": "YV8mSvfiB2whNrYcZtDTxM3H"
     }
-    },
-    "buildpacks": [
+  },
+  "buildpacks": [
     {
       "url": "heroku/nodejs"
     },
